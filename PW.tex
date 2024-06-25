@@ -3,7 +3,7 @@
 \usepackage{graphicx} % Required for inserting images
 \graphicspath{{./images}}
 \usepackage[italian]{babel}
-\usepackage{caption, float, amsmath, fancyhdr, fontspec, multicol, unicode-math, lettrine, lipsum}
+\usepackage{tocloft, caption, float, tikz, amsmath, xcolor, fancyhdr, fontspec, multicol, unicode-math, lettrine, lipsum}
 
 \setlength\columnsep{18pt}
 \setlength\headheight{15pt}
@@ -11,8 +11,14 @@
 \setlength\parindent{0pt}
 \raggedcolumns
 
+\definecolor{poliblu}{RGB}{101,131,156}
+
 \setmainfont{DIN Next W1G}
-\newfontfamily{\serif}{EB Garamond}
+
+% \newfontfamily{\serif}{EB Garamond}
+
+\setlength{\cftbeforesecskip}{10pt}
+\setlength{\cftbeforesubsecskip}{3pt}
 
 \captionsetup{font=it}
 
